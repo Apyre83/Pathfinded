@@ -24,7 +24,7 @@ else
 endif
 
 
-NAME		=	more-sandbox
+NAME		=	pathfinded
 ifeq ($(OS),Windows_NT)
 	PATH_BIN	=	bin\$(NAME)
 	NAME		:=	$(NAME).exe
