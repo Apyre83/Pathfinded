@@ -1,27 +1,51 @@
-## more-sandbox
+# A* Pathfinding with SFML
 
-# Establishing an objective
+Ce projet est une simple démonstration de l'algorithme de recherche de chemin A* en utilisant la bibliothèque graphique SFML.
 
-It's been 3 days i've been working on this 'project' and i've not idea what i'm doing so far
-I'm trying to create some simulating implying multiple players against some monsters, but would I not work on Kamlot, now I have SFML's basics ?
-I guess I could try some human interaction such as a character moving using keyboard's input...
-
-I believe I had some idea of what I was doing at the beginning, something like the "Game of Life", but it got weird after i thought about the 10 possible features I could add...
+![image](https://github.com/Apyre83/more-sandbox/assets/73712577/a72ed6ed-a393-423b-a331-0fee1aea255f)
 
 
-# About the gameplay of the 'new version'
 
-Could try drawing few sprites of a character, moving it
+## Fonctionnalités
 
-# Wait... I do remember something now...
+- Grille personnalisable pour la simulation
+- Utilisation de l'algorithme A* pour trouver le chemin le plus court entre deux points
+- Possibilité de générer une nouvelle grille
+- Visualisation en temps réel
 
-What about, creating a game from code, this wouldn't be my part, hahaha, but the player's part. // Perhaps this is a bad idea since this is what we basically call "Coding", we'd just ask the player to code its game... nonsense BUT
-We can try something like "Creeps" where you code the game, and the player just code the gameplay.
+## Dépendances
 
-I kinda want to keep doing simulation...
-I guess I could do a big sandbox where you set up rules and the game uses the rules to work...
+- C++11 ou supérieur
+- SFML 2.5.x
 
-What about simulating IA ?
-=> OpenAI hide and seek <3
+## Compilation et exécution
 
-Dang let's do pathfinding visualization -- Will help for Kamlot anyway
+```bash
+# Cloner le dépôt
+git clone https://github.com/Apyre83/Pathfinded
+
+# Aller dans le dossier du projet
+cd pathfinded
+
+# Compiler
+make
+
+# Exécuter
+./bin/pathfinded
+```
+
+## Utilisation
+
+- **Espace** : Démarrer/Arrêter la simulation
+- **Clic gauche de la souris** : Ajouter un obstacle
+- **Clic droit de la souris** : Supprimer un obstacle
+- **C** : Effacer la grille
+- **G** : Générer une nouvelle grille
+
+## Auteurs
+
+- [Apyre83](https://github.com/Apyre83)
+
+## Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
